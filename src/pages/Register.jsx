@@ -2,14 +2,14 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-const Shop = () => {
+const Register = () => {
   return (
     <div className='wrapper'>
         <header className='header'>
             <Header />
         </header>
         <main className='main'>
-            Shop
+            Register
         </main>
         <footer className='footer'>
             <Footer />
@@ -18,4 +18,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default Register
