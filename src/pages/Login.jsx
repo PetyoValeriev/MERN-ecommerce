@@ -2,14 +2,14 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-const Shop = () => {
+const Login = () => {
   return (
     <div className='wrapper'>
         <header className='header'>
             <Header />
         </header>
         <main className='main'>
-            Shop
+            Login
         </main>
         <footer className='footer'>
             <Footer />
@@ -18,4 +18,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default Login
